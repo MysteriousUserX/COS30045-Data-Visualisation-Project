@@ -13,11 +13,13 @@
   --text-muted: #767676;
   --blue: #1b6cc4;
   --teal: #0f9e7b;
+  --teal-dark: #0c7d62;
   --amber: #e09420;
   --amber-dark: #7a5200;
   --red: #c93b3b;
   --red-dark: #8b1a1a;
   --green: #2e8b57;
+  --green-dark: #206a41;
   --coral: #e07055;
   --purple: #7c5cbf;
   --border: #e0deda;
@@ -242,14 +244,14 @@ section[id] {
 
 .nav-right {
   font-size: 0.75rem;
-  color: rgba(255, 255, 255, 0.45);
+  color: rgba(255, 255, 255, 0.5);
   font-weight: 500;
   white-space: nowrap;
 }
 
 .nav-meta {
   font-size: 0.75rem;
-  color: rgba(255, 255, 255, 0.45);
+  color: rgba(255, 255, 255, 0.5);
   white-space: nowrap;
   flex-shrink: 0;
 }
@@ -433,7 +435,7 @@ section[id] {
 
 .kpi-trend.pos,
 .kpi-trend.positive {
-  color: var(--teal);
+  color: #4ade80;
 }
 
 .kpi-trend.neg,
@@ -443,7 +445,7 @@ section[id] {
 
 .kpi-trend.neut,
 .kpi-trend.neutral {
-  color: rgba(255, 255, 255, 0.38);
+  color: rgba(255, 255, 255, 0.55);
 }
 
 /* Section anchor chips row */
@@ -670,11 +672,11 @@ section[id] {
 }
 
 .s0-card.teal .s0-tag {
-  color: var(--teal);
+  color: var(--teal-dark);
 }
 
 .s0-card.green .s0-tag {
-  color: var(--green);
+  color: var(--green-dark);
 }
 
 .s0-card.amber .s0-tag {
@@ -706,11 +708,11 @@ section[id] {
 }
 
 .s0-card.teal .s0-nav {
-  color: var(--teal);
+  color: var(--teal-dark);
 }
 
 .s0-card.green .s0-nav {
-  color: var(--green);
+  color: var(--green-dark);
 }
 
 .s0-card.amber .s0-nav {
@@ -1260,7 +1262,7 @@ section {
 }
 
 .insight-box.green .insight-eyebrow {
-  color: var(--green);
+  color: var(--green-dark);
 }
 
 .insight-headline {
@@ -1696,7 +1698,7 @@ section {
 }
 
 #section-verdict .section-label {
-  color: rgba(255, 255, 255, 0.45);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 #section-verdict h2 {
@@ -1774,7 +1776,7 @@ section {
   display: flex;
   align-items: center;
   gap: 8px;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.55);
 }
 
 .verdict-story-tag::before {
@@ -1860,7 +1862,7 @@ section {
 
 .verdict-desc {
   font-size: 0.8125rem;
-  color: rgba(255, 255, 255, 0.48);
+  color: rgba(255, 255, 255, 0.58);
   line-height: 1.65;
   margin-top: auto;
   padding-top: 8px;
@@ -1924,7 +1926,7 @@ section {
 }
 
 .footer-sub {
-  color: rgba(255, 255, 255, 0.45);
+  color: rgba(255, 255, 255, 0.5);
   font-size: 12px;
 }
 
@@ -1949,7 +1951,7 @@ section {
 }
 
 .footer-pipe {
-  color: rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.48);
   font-size: 13px;
 }
 
@@ -1961,7 +1963,7 @@ section {
 }
 
 .footer-source {
-  color: rgba(255, 255, 255, 0.45);
+  color: rgba(255, 255, 255, 0.5);
   font-size: 12px;
   line-height: 1.6;
 }
